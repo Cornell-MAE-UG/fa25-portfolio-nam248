@@ -6,7 +6,7 @@ title: Neil Morrison
 ## About Me
 
 
-![Profile Picture]({{ "/assets/images/profile-pic100.jpg" | relative_url }}){: .profile-image}
+![Profile Picture]({{ "/assets/images/profile-pic.jpg" | relative_url }}){: .profile-image}
 
 MY STATICS HOMEWORK 5 PROJECT IS LOCATED IN THE PROJECTS SECITON
 
