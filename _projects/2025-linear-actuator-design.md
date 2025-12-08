@@ -12,6 +12,8 @@ For statics we were asked to sketch a design of a linear actuator mechanism give
  
 --------------------------------------------------------------------------------------------------------------------
 
+HOMEWORK 12 - UPDATE
+
 
 
 
