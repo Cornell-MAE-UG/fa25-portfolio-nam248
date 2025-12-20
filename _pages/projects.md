@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: Neil Morrison - Portfolio
 permalink: /projects/
 ---
 
@@ -16,3 +16,10 @@ permalink: /projects/
     {% endfor %}
 </div>
 </div>
+
+
+
+
+
+
+

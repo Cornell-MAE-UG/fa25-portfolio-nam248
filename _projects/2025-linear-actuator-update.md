@@ -3,7 +3,7 @@ layout: project
 title: Linear Actuator Mechanism Update
 description: Statics Project
 technologies: [Bending Analysis with Pen and Paper]
-image: /assets/images/HW_12_1.JPG
+image: /assets/images/Actuator.jpg
 ---
 
 HOMEWORK 12 - UPDATE
