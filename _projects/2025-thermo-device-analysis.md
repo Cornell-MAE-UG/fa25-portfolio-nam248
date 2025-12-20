@@ -18,7 +18,7 @@ The Limerick Power Plant is known as a boiling water reactor. This is where heat
 In this anaylsis, I will be primarily looking at two devices used in the Limerick Power Plant: the reactor boiler and the turbine. To find data at different states in the Limrick Rankine Cycle, I primarily used the [U.S.NRC Generic Environmental Impact Statement for License Renweal of Nuclear Plants Report](https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr1437/r1/index). This is where I found values for the mass flowrate of the reactor. I also used common pressure and tempurature values found in BWR reactors from [The International Atomic Energy Agency](https://www-pub.iaea.org/MTCD/Publications/PDF/TCS-23_2nd_web.pdf) so I could calculate the Work and Heat of these devices. Specifically what I will be finding from the turbine and the boiler is the Heat added from the boiler, the Work output of the turbine, the efficiency of the plant, and then the isentropic efficiency of the turbine. I will then compare these calculated efficiences to the real efficiences of BWR reactors. 
 
 
-First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle. To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
+First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
 
 
 $\dot{m}$
@@ -44,6 +44,179 @@ We can use the first law for a control volume
 $$
 \dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_i - \sum_{}\dot{m}h_o
 $$
+
+Which, from our assumptions reduces down to
+$$
+Q˙​in​=m˙(h1​−h4​)
+$$
+
+# Limerick Power Plant Rankine Cycle Analysis
+
+## Assumptions
+
+- Steady-state operation  
+- Ideal Rankine cycle  
+- Turbine is adiabatic  
+- Pump work is negligible  
+- Changes in kinetic and potential energy are negligible  
+- Heat addition occurs at constant pressure  
+- Condenser flow is liquid water  
+
+---
+
+## Given Data (U.S. NRC)
+
+- Condenser cooling water flow rate:  
+  450,000 gallons per minute (gpm)
+
+### Mass Flow Rate Conversion
+
+$$
+\dot{m} = 28{,}390\ \text{kg/s}
+$$
+
+---
+
+## State Definitions
+
+### Turbine Inlet (State 1)
+
+$$
+P_1 = 7\ \text{MPa}
+$$
+
+$$
+T_1 = 290^\circ\text{C} = 563\ \text{K}
+$$
+
+From superheated steam tables:
+
+$$
+h_1 = 2794.1\ \text{kJ/kg}
+$$
+
+---
+
+### Boiler Inlet / Pump Outlet (State 4)
+
+$$
+P_4 = 7\ \text{MPa}
+$$
+
+$$
+T_4 = 215^\circ\text{C} = 488\ \text{K}
+$$
+
+Approximated as compressed liquid water:
+
+$$
+h_4 = 945.1\ \text{kJ/kg}
+$$
+
+---
+
+## Boiler Heat Addition
+
+$$
+\dot{Q}_{in} = \dot{m}(h_1 - h_4)
+$$
+
+$$
+\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)
+$$
+
+$$
+\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}
+$$
+
+---
+
+## Turbine Exit Conditions (State 2)
+
+$$
+P_2 = 5\ \text{kPa}
+$$
+
+$$
+T_2 = 30^\circ\text{C} = 313\ \text{K}
+$$
+
+Quality:
+
+$$
+x = 0.85
+$$
+
+From saturated steam tables:
+
+$$
+h_f = 151.53\ \text{kJ/kg}
+$$
+
+$$
+h_{fg} = 2567.4\ \text{kJ/kg}
+$$
+
+Exit enthalpy:
+
+$$
+\begin{aligned}
+h_2 &= h_f + x h_{fg} \\
+    &= 151.53 + 0.85(2567.4) \\
+    &= 2205.02\ \text{kJ/kg}
+\end{aligned}
+$$
+
+---
+
+## Turbine Work Output
+
+$$
+\dot{W}_{out} = \dot{m}(h_1 - h_2)
+$$
+
+$$
+\dot{W}_{out} = 28{,}390(2794.1 - 2205.02)
+$$
+
+$$
+\boxed{\dot{W}_{out} = 16.7\ \text{MW}}
+$$
+
+---
+
+## Pump Work
+
+$$
+\dot{W}_p \approx 0
+$$
+
+---
+
+## Thermal Efficiency
+
+$$
+\eta_{plant} = \frac{\dot{W}_{out}}{\dot{Q}_{in}}
+$$
+
+$$
+\eta_{plant} = \frac{16.7}{52.5}
+$$
+
+$$
+\boxed{\eta_{plant} = 0.318 \approx 31.8\%}
+$$
+
+---
+
+## Summary of Results
+
+| Quantity | Value |
+|--------|-------|
+| Mass flow rate | 28,390 kg/s |
+| Boiler heat input | 52.5 MW |
+| Turbine work output | 16.7 MW |
+| Plant efficiency | 31.8% |
 
 
 aaaa
