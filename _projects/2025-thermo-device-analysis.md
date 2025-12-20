@@ -70,7 +70,7 @@ $\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}$
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
 From the IAEA document, the standard condenser inlet conditions are listed as the water entering will a quality of: $\{x} = 0.85$
-this means that the water leaving this turbine has this quality. The pressure after leaving the turbine is much lower compared to the turbine inlet, this was given to be $\{P_c} = 5\ \text{kPa}$
+which means that the water leaving the turbine has this quality. The pressure after leaving the turbine is also much lower compared to the turbine inlet and from the sources was given to be $\{P_c} = 5\ \text{kPa}$
 
 Looking at the saturated vapor table at 5kPa and using the equation $\{h_3} = \{h_f}(1-x) + \{h_g}x$ where $h_f = 151.53\ \text{KJ/kgK}$ and $h_g = 2567.4\ \text{KJ/kgK}$, we can find the the value for $h_3$
 
@@ -92,16 +92,20 @@ $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
 To find the thermal efficiency of the plant, we can use the equation 
 
-$\eta_{plant} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
+$\eta_{th} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
 
-Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the $\{|{W}_{out}|} \gg \{|{W}_{in}|}$ and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
+Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
-$\eta_{plant} = \frac{\dot{W}_{out}}{\dot{Q}_{in}}$
+${|{W}_{out}|} >> {|{W}_{in}|}$ 
+
+and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
+
+$\eta_{th} = \frac{\dot{W}_{out}}{\dot{Q}_{in}}$
 
 
-$\eta_{plant} = \frac{16.7}{52.5}$
+$\eta_{th} = \frac{16.7}{52.5}$
 
-$\boxed{\eta_{plant} = 0.318 \approx 31.8\%}$
+$\boxed{\eta_{th} = 0.318 \approx 31.8\%}$
 
 ---
 
