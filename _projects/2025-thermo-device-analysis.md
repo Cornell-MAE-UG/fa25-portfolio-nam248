@@ -104,7 +104,7 @@ $\eta_{th} = \frac{\dot{{W}_{net}}}{\dot{{Q}_{in}}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
-$\abs{x} = 1$
+$\|x\| = 1$
 
 $\{|{W}_{out}|}$ >> $\{|{W}_{in}|}$ 
 
