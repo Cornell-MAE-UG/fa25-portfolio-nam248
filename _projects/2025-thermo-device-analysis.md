@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Thermodynamics Device Analysis
+title: Thermodynamic Device Analysis
 description: Device Analysis
 technologies: [Autodesk Fusion]
 image: /assets/images/LimerickPowerPlant.jpg
@@ -10,7 +10,14 @@ Close to my home in Phildalphia, there is a nuclear power plant around fifty mil
 
 The Limerick Power Plant is known as a boiling water reactor. This is where heat from a fission reaction is taken up by water in the reactor vessel and turning it into steam. This superheated steam is then directed to a turbine generator which converts energy from the steam into electrical power. The thermodynamic cycle used in this case is a Rankine Cycle which utilizes a turbine to do work, a condenser to reject heat, a pump requiring work to pump liquid water back to pressure, and a boiler to add heat. 
 
+
 ![Shaded rendering of earlier version]({{ "/assets/images/bwr_reactor.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 ![Shaded rendering of earlier version]({{ "/assets/images/brayton_cycle.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
+In this anaylsis, I will be primarily looking at two devices used in the Limerick Power Plant: the boiler and the turbine. To find data at different states in the Limrick Rankine Cycle, I primarily used the [U.S.NRC Generic Environmental Impact Statement for License Renweal of Nuclear Plants Report](https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr1437/r1/index)
+
+
+
+
+aaaa
