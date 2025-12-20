@@ -25,7 +25,7 @@ Page 2:
 ![Shaded rendering of earlier version]({{ "/assets/images/HW_12_2.JPG" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 
---------------------------------------------------------------------------------------------------------------------
+---
 
 
 
