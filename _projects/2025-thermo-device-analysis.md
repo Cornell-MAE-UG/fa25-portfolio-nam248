@@ -30,6 +30,7 @@ $$
 $$
 
 Given Boiler Pressure : $P_b = 7.0\ \text{MPa}$
+Given Boiler Inlet Temperature : $T_bi = 215\ \text{C}$
 
 
 aaaa
