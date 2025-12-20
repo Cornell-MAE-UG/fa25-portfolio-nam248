@@ -43,6 +43,8 @@ Boiler Inlet Temperature : $T_i = 215\ \text{C}$
 
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
+## Boiler Heat Addition
+
 We can use the first law for a control volume 
 
 
@@ -55,22 +57,21 @@ $$
 
 Looking at the steam tables we can find that 
 
-$h_i = 2794.1\ \text{kJ/kg}$
-$h_o = 945.1\ \text{kJ/kg}$
+$h_i = 2794.1\ \text{kJ/kg}
+h_o = 945.1\ \text{kJ/kg}$
 
-## Boiler Heat Addition
 
-$$
-\dot{Q}_{in} = \dot{m}(h_o - h_i)
-$$
+$\dot{Q}_{in} = \dot{m}(h_o - h_i)$
 
-$$
-\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)
-$$
 
-$$
-\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}
-$$
+$\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)$
+
+
+$\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}$
+
+## Turbine Work Output
+
+
 
 
 ### Turbine Inlet (State 1)
