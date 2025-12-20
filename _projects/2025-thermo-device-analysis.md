@@ -20,11 +20,9 @@ In this anaylsis, I will be primarily looking at two devices used in the Limeric
 
 ## Assumptions
 
-First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
-$\dot{m}$
-$ = 28390\ \text{kg/s}$
+First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. 
 
-
+(1)
 Finding 
 $$ 
 \dot{Q_i}
@@ -33,42 +31,47 @@ for the Boiler
 
 ### Given
 
+To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
+$\dot{m}$
+$ = 28390\ \text{kg/s}$
+
+We also have values for: 
+
 Boiler Pressure : $P_b = 7.0\ \text{MPa}$
+
 Boiler Inlet Temperature : $T_i = 215\ \text{C}$
+
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
 We can use the first law for a control volume 
 
-$$
-\dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_i - \sum_{}\dot{m}h_o
-$$
 
-Which, from our assumptions reduces down to
+$\dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_i - \sum_{}\dot{m}h_o$
+
+From our assumptions, this becomes:
 $$
-\dot{Q}_{in} = \dot{m}(h_1 - h_4)
+\dot{Q} = \dot{m}(h_o - h_i)
 $$
 
 Looking at the steam tables we can find that 
 
-
 $h_i = 2794.1\ \text{kJ/kg}$
-$h_4 = 945.1\ \text{kJ/kg}$
+$h_o = 945.1\ \text{kJ/kg}$
 
-
-## Given Data (U.S. NRC)
-
-- Condenser cooling water flow rate:  
-  450,000 gallons per minute (gpm)
-
-### Mass Flow Rate Conversion
+## Boiler Heat Addition
 
 $$
-\dot{m} = 28{,}390\ \text{kg/s}
+\dot{Q}_{in} = \dot{m}(h_o - h_i)
 $$
 
----
+$$
+\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)
+$$
 
-## State Definitions
+$$
+\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}
+$$
+
 
 ### Turbine Inlet (State 1)
 
