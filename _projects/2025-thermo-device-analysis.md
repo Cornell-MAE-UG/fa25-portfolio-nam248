@@ -18,6 +18,10 @@ The Limerick Power Plant is known as a boiling water reactor. This is where heat
 In this anaylsis, I will be primarily looking at two devices used in the Limerick Power Plant: the reactor boiler and the turbine. To find data at different states in the Limrick Rankine Cycle, I primarily used the [U.S.NRC Generic Environmental Impact Statement for License Renweal of Nuclear Plants Report](https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr1437/r1/index). This is where I found values for the mass flowrate of the reactor. I also used common pressure and tempurature values found in BWR reactors from [The International Atomic Energy Agency](https://www-pub.iaea.org/MTCD/Publications/PDF/TCS-23_2nd_web.pdf) so I could calculate the Work and Heat of these devices. Specifically what I will be finding from the turbine and the boiler is the Heat added from the boiler, the Work output of the turbine, the efficiency of the plant, and then the isentropic efficiency of the turbine. I will then compare these calculated efficiences to the real efficiences of BWR reactors. 
 
 
+First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
 
+$$
+\dot{m} = 28390kg/s
+$$
 
 aaaa
