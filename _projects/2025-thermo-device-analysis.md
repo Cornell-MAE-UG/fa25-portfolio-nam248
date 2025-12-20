@@ -20,7 +20,9 @@ In this anaylsis, I will be primarily looking at two devices used in the Limeric
 
 ## Assumptions
 
-First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. 
+First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. To make things clear, when going around this cycle to find specific values, I am going to call the Boiler Inlet state (1), the Turbine Inlet state (2), and the Condenser Inlet state (3). In the basic rankine cycle, this goes:
+
+Boiler → Turbine → Condenser → Pump
 
 ### Given
 
@@ -30,31 +32,32 @@ $ = 28390\ \text{kg/s}$
 
 We also have values for: 
 
-Boiler Pressure : $P_b = 7.0\ \text{MPa}$
+Boiler Pressure : $P_1 = 7.0\ \text{MPa}$
 
-Boiler Inlet Temperature : $T_i = 215\ \text{C}$
+Boiler Inlet Temperature : $T_1 = 215\ \text{C}$
 
-Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
+Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_2 = 290\ \text{C}$
 
 ## Boiler Heat Addition
 
 We can use the first law for a control volume 
 
 
-$\dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_i - \sum_{}\dot{m}h_o$
+$\dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_1 - \sum_{}\dot{m}h_2$
 
 From our assumptions, this becomes:
 $$
-\dot{Q} = \dot{m}(h_o - h_i)
+\dot{Q} = \dot{m}(h_2 - h_1)
 $$
 
 Looking at the steam tables we can find that 
 
-$h_i = 2794.1\ \text{kJ/kg}
-h_o = 945.1\ \text{kJ/kg}$
+$h_1 = 2794.1\ \text{kJ/kg}
+
+h_2 = 945.1\ \text{kJ/kg}$
 
 
-$\dot{Q}_{in} = \dot{m}(h_o - h_i)$
+$\dot{Q}_{in} = \dot{m}(h_2 - h_1)$
 
 
 $\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)$
@@ -68,6 +71,14 @@ Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
 From the IAEA document, the standard condenser inlet conditions are listed as the water entering will a quality of: $\{x} = 0.85$
 this means that the water leaving this turbine has this quality. The pressure after leaving the turbine is much lower compared to the turbine inlet, this was given to be $\{P_c} = 5\ \text{kPa}$
+
+Looking at the saturated vapor table and use the equation $\{h_2} = \{h_f}(1-x) + \{h_g}x$
+
+$\begin{aligned}
+h_2 &= h_f + x h_{fg} \\
+    &= 151.53 + 0.85(2567.4) \\
+    &= 2205.02\ \text{kJ/kg}
+\end{aligned}$
 
 
 
@@ -89,39 +100,9 @@ $$
 
 ---
 
-### Boiler Inlet / Pump Outlet (State 4)
 
-$$
-P_4 = 7\ \text{MPa}
-$$
 
-$$
-T_4 = 215^\circ\text{C} = 488\ \text{K}
-$$
 
-Approximated as compressed liquid water:
-
-$$
-h_4 = 945.1\ \text{kJ/kg}
-$$
-
----
-
-## Boiler Heat Addition
-
-$$
-\dot{Q}_{in} = \dot{m}(h_1 - h_4)
-$$
-
-$$
-\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)
-$$
-
-$$
-\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}
-$$
-
----
 
 ## Turbine Exit Conditions (State 2)
 
