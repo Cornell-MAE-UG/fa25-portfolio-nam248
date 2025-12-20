@@ -21,16 +21,19 @@ In this anaylsis, I will be primarily looking at two devices used in the Limeric
 First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle. To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
 
 $$
-\dot{m} = 28,390\ \text{kg/s}
+\dot{m}
 $$
+ = 28,390\ \text{kg/s}
 
-Finding
+Finding 
 $$ 
-\dot{Q}
+\dot{Q_in}
 $$
+for the Boiler
 
 Given Boiler Pressure : $P_b = 7.0\ \text{MPa}$
-Given Boiler Inlet Temperature : $T_bi = 215\ \text{C}$
+
+Given Boiler Inlet Temperature : $T_i = 215\ \text{C}$
 
 
 aaaa
