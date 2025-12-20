@@ -29,7 +29,7 @@ $$
 \dot{Q}
 $$
 
-Given Boiler Pressure 
+Given Boiler Pressure : $P_b = 7.0\ \text{MPa}$
 
 
 aaaa
