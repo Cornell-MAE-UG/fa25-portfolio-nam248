@@ -98,7 +98,10 @@ $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
 To find the thermal efficiency of the plant, we can use the equation 
 
-$\eta_{th} = \frac{\dot{W}_{net}}\{\dot{Q}_{in}}$
+$\eta_{th} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
+$\eta_{th} = \frac\{{W}_{net}}\{{Q}_{in}}$
+$\eta_{th} = \frac{\{W}_{net}}{\{Q}_{in}}$
+
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
@@ -117,9 +120,15 @@ $\boxed{\eta_{th} = 0.318 \approx 31.8\%}$
 
 ## Turbine Isentropic Efficiency
 
+Now, to find the isentropic efficiency of the turbine, we can use the equation: 
+
 $\eta_{isentropic} = \frac{\dot{W}_{real}}\{\dot{W}_{s}}$
 
+The isentropic effiency measures how much of the work done by the turbine is lost to irreversible processes. To find the isentropic Work, we can set $s_2 = s_3$ which implies that only reversible processes occur in the turbine. Knowning $s_2 = s_3$, we can again look at the saturated water table and compute a new water quality x to then find the associated enthalpy. From the conditions of state 2, $s_2 = 5.8529\ \text{KJ/KgK}$
 
+
+
+$\dot{W}_{real} = 16.7\ \text{MW}$
 
 
 
