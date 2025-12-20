@@ -38,6 +38,8 @@ Boiler Inlet Temperature : $T_1 = 215\ \text{C}$
 
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_2 = 290\ \text{C}$
 
+---
+
 ## Boiler Heat Addition
 
 We can use the first law for a control volume 
@@ -65,6 +67,8 @@ $\dot{Q}_{in} = 28{,}390(2794.1 - 945.1)$
 
 $\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}$
 
+---
+
 ## Turbine Work Output
 
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
@@ -88,6 +92,8 @@ $\dot{W}_{out} = 28{,}390(2794.1 - 2205.02)$
 
 $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
+---
+
 ## Thermal Efficiency
 
 To find the thermal efficiency of the plant, we can use the equation 
@@ -96,7 +102,7 @@ $\eta_{th} = \frac{\dot{W}_{net}}\{\dot{Q}_{in}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
-$\{|{W}_{out}|} >> \{|{W}_{in}|}$ 
+$\{|{W}_{out}|}$ >> $\{|{W}_{in}|}$ 
 
 and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
 
@@ -109,6 +115,9 @@ $\boxed{\eta_{th} = 0.318 \approx 31.8\%}$
 
 ---
 
+## Turbine Isentropic Efficiency
+
+$\eta_{isentropic} = \frac{\dot{W}_{real}}\{\dot{W}_{s}}$
 
 
 
