@@ -136,13 +136,11 @@ h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
     &= 1801.6\ \text{kJ/kg}
 \end{aligned}$
 
-$\dot{W}_{out} = \dot{m}(h_2 - h_3)$
+$\dot{W}_{s} = \dot{m}(h_2 - h_{3,s})$
 
 $\dot{W}_{s} = \dot{m}(h_2 - {h_{3,s}})$
 
-$\dot{W}_{s} = 28.2\ \text{MW}$
-
-$\dot{W}_{real} = 16.7\ \text{MW}$
+$\dot{W}_{s} = 28.2\ \text{MW}$ and $\dot{W}_{real} = 16.7\ \text{MW}$
 
 $\eta_{isentropic} = \frac{16.7}{28.2}$
 
