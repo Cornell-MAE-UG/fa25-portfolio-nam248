@@ -104,7 +104,7 @@ Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to av
 
 $\|x\| = 1$
 
-$\|{{W}_{out}}\| >> \|{{W}_{in}}\|$ 
+$\|W_{out}\| >> \|W_{in}\|$ 
 
 and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
 
