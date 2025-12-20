@@ -102,8 +102,6 @@ $\eta_{th} = \frac{W_{net}}{Q_{in}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
-$\|x\| = 1$
-
 $\|W_{out}\| >> \|W_{in}\|$ 
 
 and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
@@ -126,7 +124,7 @@ The isentropic effiency measures how much of the work done by the turbine is los
 
 We can find the water quality x from the saturated vapor table at 5kPa $s_f = 0.5210\ \text{KJ/kgK}$ and $s_g = 8.3304\ \text{KJ/kgK}$: 
 
-$\s_3 &= {s_f} (1-x) + x {s}_{g}$
+$\s_3 = {s_f} (1-x) + x {s}_{g}$
 
 $\s_3 = 0.5210 (1-x) + x(8.3304)$
 
@@ -143,8 +141,6 @@ h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
 $\dot{W}_{out} = \dot{m}(h_2 - h_3)$
 
 $\dot{W}_{s} = \dot{m}(h_2 - h_{3,s})$
-
-$\dot{W}_{s} = 28{,}390(2794.1 - 1801.6)$
 
 $\dot{W}_{s} = 28.2\ \text{MW}$
 
