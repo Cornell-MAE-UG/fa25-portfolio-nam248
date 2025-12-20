@@ -38,5 +38,9 @@ Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
 We can use the first law for a control volume 
 
+$$
+\dot{E} = \dot{Q} - \dot{W} + \sum_{}\dot{m}h_i - \sum_{}\dot{m}h_o
+$$
+
 
 aaaa
