@@ -108,8 +108,7 @@ $\|{W}_{out}\| >> \|{W}_{in}\|$
 
 and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
 
-$\eta_{th} = \frac{\dot{W}_{out}}\{\dot{Q}_{in}}$
-
+$\eta_{th} = \frac{W_{out}}{Q_{in}}$
 
 $\eta_{th} = \frac{16.7}{52.5}$
 
@@ -121,20 +120,19 @@ $\boxed{\eta_{th} = 0.318 \approx 31.8\%}$
 
 Now, to find the isentropic efficiency of the turbine, we can use the equation: 
 
-$\eta_{isentropic} = \frac{\dot{W}_{real}}\{\dot{W}_{s}}$
+$\eta_{isentropic} = \frac{W_{real}}\{W_{s}}$
 
-The isentropic effiency measures how much of the work done by the turbine is lost to irreversible processes. To find the isentropic Work, we can set $s_2 = s_3$ which implies that only reversible processes occur in the turbine. Knowning $s_2 = s_3$, we can again look at the saturated water table and compute a new water quality x to then find the associated enthalpy. From the conditions of state 2, $s_2 = s_3 = 5.8529\ \text{KJ/KgK}$
+The isentropic effiency measures how much of the work done by the turbine is lost to irreversible processes. To find the isentropic Work, we can set $s_2 = s_3$ which implies that only reversible processes occur in the turbine. Knowning $s_2 = s_3$, we can again look at the saturated water table and compute a new water quality $x$ to then find the associated enthalpy. From the conditions of state 2, $s_2 = s_3 = 5.8529\ \text{KJ/KgK}$
 
 We can find the water quality x from the saturated vapor table at 5kPa $s_f = 0.5210\ \text{KJ/kgK}$ and $s_g = 8.3304\ \text{KJ/kgK}$: 
 
-$\begin{aligned}
-s_3 &= {s_f} (1-x) + x {s}_{g} \\
-    s_3 = 0.5210 (1-x) + x(8.3304) \\
-\end{aligned}$
+$\s_3 &= {s_f} (1-x) + x {s}_{g}$
+
+$\s_3 = 0.5210 (1-x) + x(8.3304)$
 
 $x = 0.683$
 
-Now to find $h_{3s}$
+Now to find $h_{3,s}$
 
 $\begin{aligned}
 h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
@@ -142,8 +140,12 @@ h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
     &= 1801.6\ \text{kJ/kg}
 \end{aligned}$
 
+$\dot{W}_{out} = \dot{m}(h_2 - h_3)$
+
 $\dot{W}_{s} = \dot{m}(h_2 - h_{3,s})$
+
 $\dot{W}_{s} = 28{,}390(2794.1 - 1801.6)$
+
 $\dot{W}_{s} = 28.2\ \text{MW}$
 
 $\dot{W}_{real} = 16.7\ \text{MW}$
