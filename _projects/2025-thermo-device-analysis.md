@@ -2,7 +2,7 @@
 layout: project
 title: Limerick Power Plant Rankine Cycle Analysis
 description: Device Analysis
-technologies: [Autodesk Fusion]
+technologies: [Hand Analysis and Online Sources]
 image: /assets/images/LimerickPowerPlant.jpg
 ---
 
