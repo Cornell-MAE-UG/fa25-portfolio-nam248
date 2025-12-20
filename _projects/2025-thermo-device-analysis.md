@@ -100,7 +100,7 @@ To find the thermal efficiency of the plant, we can use the equation
 
 $\eta_{th} = \frac{\dot{W}_\text{net}}{\dot{Q}_\text{in}}$
 
-$\eta_{th} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
+$\eta_{th} = \frac{\dot{{W}_{net}}}{\dot{{Q}_{in}}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
