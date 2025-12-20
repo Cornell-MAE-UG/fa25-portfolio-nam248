@@ -73,7 +73,7 @@ $\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}$
 Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 
 From the IAEA document, the standard condenser inlet conditions are listed as the water entering will a quality of: $\{x} = 0.85$
-which means that the water leaving the turbine has this quality. The pressure after leaving the turbine is also much lower compared to the turbine inlet and from the sources was given to be $\{P_c} = 5\ \text{kPa}$
+which means that the water leaving the turbine has this quality. The pressure after leaving the turbine is also much lower compared to the turbine inlet and from the sources was given to be $\{P_3} = 5\ \text{kPa}$
 
 Looking at the saturated vapor table at 5kPa and using the equation $\{h_3} = \{h_f}(1-x) + \{h_g}x$ where $h_f = 151.53\ \text{KJ/kg}$ and $h_g = 2567.4\ \text{KJ/kg}$, we can find the the value for $h_3$
 
@@ -99,7 +99,7 @@ To find the thermal efficiency of the plant, we can use the equation
 
 $\eta_{th} = \frac{W_{net}}{Q_{in}}$
 
-Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
+Because the Back Work Ratio of a Boiling Water Reactor ranges from 0.005 - 0.02, this means the 
 
 $\|W_{out}\| >> \|W_{in}\|$ 
 
@@ -121,9 +121,10 @@ $\eta_{isentropic} = \frac{W_{real}}\{W_{s}}$
 
 The isentropic effiency measures how much of the work done by the turbine is lost to irreversible processes. To find the isentropic Work, we can set $s_2 = s_3$ which implies that only reversible processes occur in the turbine. Knowning $s_2 = s_3$, we can again look at the saturated water table and compute a new water quality $x$ to then find the associated enthalpy. From the conditions of state 2, $s_2 = s_3 = 5.8529\ \text{KJ/KgK}$
 
-We can find the water quality x from the saturated vapor table at 5kPa $s_f = 0.5210\ \text{KJ/kgK}$ and $s_g = 8.3304\ \text{KJ/kgK}$: 
+We can find the water quality x from the saturated vapor table at 5kPa and state 3, $s_f = 0.5210\ \text{KJ/kgK}$ and $s_g = 8.3304\ \text{KJ/kgK}$: 
 
-$s_3 = {s_f} (1-x) + x {s}_{g} = 0.5210 (1-x) + x(8.3304)$
+$s_3 = {s_f} (1-x) + x {s}_{g}$
+$5.8529 = 0.5210 (1-x) + x(8.3304)$
 
 $x = 0.683$
 
@@ -139,11 +140,13 @@ $\dot{W}_{s} = \dot{m}(h_2 - h_3)$
 
 $\dot{W}_{s} = 28.2\ \text{MW}$ 
 
-$\dot{W}_{real} = 16.7\ \text{MW}$
+Remember the original real Work was found to be $\dot{W}_{real} = 16.7\ \text{MW}$
 
 $\eta_{isentropic} = \frac{16.7}{28.2}$
 
 $\boxed{\eta_{isentropic} = 0.593 \approx 59.3\%}$
+
+---
 
 ## Summary of Results
 
