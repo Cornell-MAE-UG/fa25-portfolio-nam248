@@ -22,13 +22,6 @@ In this anaylsis, I will be primarily looking at two devices used in the Limeric
 
 First, to state some assumptions before analyzing these devices, I am going to assume that the turbine is adiabatic and that the Kinetic and Potenial Energy changes of this cycle are negligible beacuse the enthalpy changes from state to state are so massive. Heat addition also takes place at constant pressure like in an ideal Rankine Cycle and all devices are in steady state. 
 
-(1)
-Finding 
-$$ 
-\dot{Q_i}
-$$
-for the Boiler
-
 ### Given
 
 To start, we can see that the given value for the mass flow rate through the condenser from the U.S.NRC document is 450,000 gpm, this roughly converts to:
@@ -71,6 +64,10 @@ $\boxed{\dot{Q}_{in} = 52.5\ \text{MW}}$
 
 ## Turbine Work Output
 
+Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
+
+From the IAEA document, the standard condenser inlet conditions are listed as the water entering will a quality of: $\{x} = 0.85$
+this means that the water leaving this turbine has this quality. The pressure after leaving the turbine is much lower compared to the turbine inlet, this was given to be $\{P_c} = 5\ \text{kPa}$
 
 
 
