@@ -98,9 +98,7 @@ $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
 To find the thermal efficiency of the plant, we can use the equation 
 
-$\eta_{th} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
-$\eta_{th} = \frac{\{W}_{net}}{\{Q}_{in}}$
-
+$\eta_{th} = \frac{\dot{W}_\text{net}}{\dot{Q}_\text{in}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
@@ -160,5 +158,6 @@ $\boxed{\eta_{isentropic} = 0.593 \approx 59.3\%}$
 | Turbine work output | 16.7 MW |
 | Plant efficiency | 31.8% |
 | Turbine efficiency | 59.3% |
+
 
 When it comes to the real values of this plant and BWR plants in general the effiency is around 30-34% which confirms the value found using hand calculations. When checking the real value of the power output, the Limerick Power Plant has a much higher posted value, for a single reactor able to produce 1,130MW. The cause of huge discrepency is most likely underestimating the mass flow rate since I was able to find this value for the condenser ONLY and assumed that this was a basic Rankine Cycle in steady state. This means that if there are other devices that increase the efficency of the cycle, say a reheat phase, this means there is more water unaccounted for. When it comes to the turbine efficiency, this was a slight underestimate, usually the isentropic effiencies of turbines in BWRs can range from 80-90%. When looking further into this, BWRs usually use a mix of high pressure and low pressure turbines which are optimized to extract energy from the water at differnet pressures as the water travels through the system after heat is added. This most likely is the biggest reason my efficiency is much lower compared to the real turbine efficiences. 
