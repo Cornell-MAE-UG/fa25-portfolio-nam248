@@ -98,15 +98,13 @@ $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
 To find the thermal efficiency of the plant, we can use the equation 
 
-$\eta_{th} = \frac{\dot{W}_\text{net}}{\dot{Q}_\text{in}}$
-
 $\eta_{th} = \frac{W_{net}}{Q_{in}}$
 
 Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the 
 
 $\|x\| = 1$
 
-$\{|{W}_{out}|}$ >> $\{|{W}_{in}|}$ 
+$\|{W}_{out}\| >> \|{W}_{in}\|$ 
 
 and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
 
