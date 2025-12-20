@@ -8,8 +8,6 @@ title: Neil Morrison
 
 ![Profile Picture]({{ "/assets/images/profile_pic.jpg" | relative_url }}){: .profile-image}
 
-Aspiring Mechanical Engineer | Robotics Leader | CAD and Manufacturing Expert
-
 I am currently pursuing a degree in Mechanical Engineering within the Cornell University College of Engineering, inspired by my four-year experience on my high school’s FRC Robotics team. Through robotics, I developed foundational skills in programming, electronics, manufacturing, and design as well as skills in communication, teamwork, and leadership.
 
 In my senior year, I led our team to qualify for the FRC World Championship for the first time in the 21 year history of the program. I mentored underclassmen, teaching them to break down complex problems and collaborate to design innovative solutions. I also introduced them to key principles of design and manufacturing, leveraging my experience with CAD and CAM software developed over my four years on the team.

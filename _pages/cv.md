@@ -5,6 +5,8 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
+WIP
+
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
