@@ -124,9 +124,7 @@ The isentropic effiency measures how much of the work done by the turbine is los
 
 We can find the water quality x from the saturated vapor table at 5kPa $s_f = 0.5210\ \text{KJ/kgK}$ and $s_g = 8.3304\ \text{KJ/kgK}$: 
 
-$\s_3 = {s_f} (1-x) + x {s}_{g}$
-
-$\s_3 = 0.5210 (1-x) + x(8.3304)$
+$s_3 = {s_f} (1-x) + x {s}_{g} = 0.5210 (1-x) + x(8.3304)$
 
 $x = 0.683$
 
@@ -140,7 +138,7 @@ h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
 
 $\dot{W}_{out} = \dot{m}(h_2 - h_3)$
 
-$\dot{W}_{s} = \dot{m}(h_2 - h_{3,s})$
+$\dot{W}_{s} = \dot{m}(h_2 - {h_{3,s}})$
 
 $\dot{W}_{s} = 28.2\ \text{MW}$
 
