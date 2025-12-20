@@ -72,14 +72,21 @@ Boiler Outlet Temperature (Turbine Inlet Tempurature): $T_o = 290\ \text{C}$
 From the IAEA document, the standard condenser inlet conditions are listed as the water entering will a quality of: $\{x} = 0.85$
 this means that the water leaving this turbine has this quality. The pressure after leaving the turbine is much lower compared to the turbine inlet, this was given to be $\{P_c} = 5\ \text{kPa}$
 
-Looking at the saturated vapor table and use the equation $\{h_2} = \{h_f}(1-x) + \{h_g}x$
+Looking at the saturated vapor table at 5kPa and using the equation $\{h_3} = \{h_f}(1-x) + \{h_g}x$ where $h_f = 151.53\ \text{KJ/kgK}$ and $h_g = 2567.4\ \text{KJ/kgK}$, we can find the the value for $h_3$
 
 $\begin{aligned}
-h_2 &= h_f + x h_{fg} \\
-    &= 151.53 + 0.85(2567.4) \\
+h_3 &= {h_f} (1-x) + x {h}_{fg} \\
+    &= 151.53 (1-0.85) + 0.85(2567.4) \\
     &= 2205.02\ \text{kJ/kg}
 \end{aligned}$
 
+From the First Law for a CV: 
+
+$\dot{W}_{out} = \dot{m}(h_2 - h_3)$
+
+$\dot{W}_{out} = 28{,}390(2794.1 - 2205.02)$
+
+$\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
 
 ### Turbine Inlet (State 1)
