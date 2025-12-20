@@ -136,11 +136,10 @@ h_{3,s} &= {h_f} (1-x) + x {h}_{g} \\
     &= 1801.6\ \text{kJ/kg}
 \end{aligned}$
 
-$\dot{W}_{s} = \dot{m}(h_2 - h_{3,s})$
+$\dot{W}_{s} = \dot{m}(h_2 - h_3)$
 
-$\dot{W}_{s} = \dot{m}(h_2 - {h_{3,s}})$
-
-$\dot{W}_{s} = 28.2\ \text{MW}$ and $\dot{W}_{real} = 16.7\ \text{MW}$
+$\dot{W}_{s} = 28.2\ \text{MW}$ and
+$\dot{W}_{real} = 16.7\ \text{MW}$
 
 $\eta_{isentropic} = \frac{16.7}{28.2}$
 
@@ -151,7 +150,7 @@ $\boxed{\eta_{isentropic} = 0.593 \approx 59.3\%}$
 | Quantity | Value |
 |--------|-------|
 | Boiler heat input | 52.5 MW |
-| Turbine work output | 16.7 MW |
+| Turbine work output    | 16.7 MW |
 | Plant efficiency | 31.8% |
 | Turbine efficiency | 59.3% |
 
