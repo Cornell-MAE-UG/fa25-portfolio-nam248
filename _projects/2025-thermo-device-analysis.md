@@ -99,7 +99,6 @@ $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 To find the thermal efficiency of the plant, we can use the equation 
 
 $\eta_{th} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
-$\eta_{th} = \frac\{{W}_{net}}\{{Q}_{in}}$
 $\eta_{th} = \frac{\{W}_{net}}{\{Q}_{in}}$
 
 
