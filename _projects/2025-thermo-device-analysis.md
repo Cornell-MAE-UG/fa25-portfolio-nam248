@@ -52,9 +52,9 @@ $$
 
 Looking at the steam tables we can find that 
 
-$h_1 = 2794.1\ \text{kJ/kg}
+$h_1 = 2794.1\ \text{kJ/kg}$
 
-h_2 = 945.1\ \text{kJ/kg}$
+$h_2 = 945.1\ \text{kJ/kg}$
 
 
 $\dot{Q}_{in} = \dot{m}(h_2 - h_1)$
@@ -88,24 +88,24 @@ $\dot{W}_{out} = 28{,}390(2794.1 - 2205.02)$
 
 $\boxed{\dot{W}_{out} = 16.7\ \text{MW}}$
 
+## Thermal Efficiency
 
-### Turbine Inlet (State 1)
+To find the thermal efficiency of the plant, we can use the equation 
 
-$$
-P_1 = 7\ \text{MPa}
-$$
+$\eta_{plant} = \frac{\dot{W}_{net}}{\dot{Q}_{in}}$
 
-$$
-T_1 = 290^\circ\text{C} = 563\ \text{K}
-$$
+Because the Back Work Ratio of a Boiling Water Reactor (not using acronyms to avoid confusion) ranges from 0.005 - 0.02, this means the $\{|{W}_{out}|} \gg \{|{W}_{in}|}$ and we can assume it is negligible when computing the overall efficiency of the plant. Now the efficiency equation becomes: 
 
-From superheated steam tables:
+$\eta_{plant} = \frac{\dot{W}_{out}}{\dot{Q}_{in}}$
 
-$$
-h_1 = 2794.1\ \text{kJ/kg}
-$$
+
+$\eta_{plant} = \frac{16.7}{52.5}$
+
+$\boxed{\eta_{plant} = 0.318 \approx 31.8\%}$
 
 ---
+
+
 
 
 
