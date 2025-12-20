@@ -129,7 +129,7 @@ We can find the water quality x from the saturated vapor table at 5kPa $s_f = 0.
 
 $\begin{aligned}
 s_3 &= {s_f} (1-x) + x {s}_{g} \\
-s_3 &= 0.5210 (1-x) + x(8.3304) \\
+    s_3 = 0.5210 (1-x) + x(8.3304) \\
 \end{aligned}$
 
 $x = 0.683$
@@ -150,93 +150,15 @@ $\dot{W}_{real} = 16.7\ \text{MW}$
 
 $\eta_{isentropic} = \frac{16.7}{28.2}$
 
-
-## Turbine Exit Conditions (State 2)
-
-$$
-P_2 = 5\ \text{kPa}
-$$
-
-$$
-T_2 = 30^\circ\text{C} = 313\ \text{K}
-$$
-
-Quality:
-
-$$
-x = 0.85
-$$
-
-From saturated steam tables:
-
-$$
-h_f = 151.53\ \text{kJ/kg}
-$$
-
-$$
-h_{fg} = 2567.4\ \text{kJ/kg}
-$$
-
-Exit enthalpy:
-
-$$
-\begin{aligned}
-h_2 &= h_f + x h_{fg} \\
-    &= 151.53 + 0.85(2567.4) \\
-    &= 2205.02\ \text{kJ/kg}
-\end{aligned}
-$$
-
----
-
-## Turbine Work Output
-
-$$
-\dot{W}_{out} = \dot{m}(h_1 - h_2)
-$$
-
-$$
-\dot{W}_{out} = 28{,}390(2794.1 - 2205.02)
-$$
-
-$$
-\boxed{\dot{W}_{out} = 16.7\ \text{MW}}
-$$
-
----
-
-## Pump Work
-
-$$
-\dot{W}_p \approx 0
-$$
-
----
-
-## Thermal Efficiency
-
-$$
-\eta_{plant} = \frac{\dot{W}_{out}}{\dot{Q}_{in}}
-$$
-
-$$
-\eta_{plant} = \frac{16.7}{52.5}
-$$
-
-$$
-\boxed{\eta_{plant} = 0.318 \approx 31.8\%}
-$$
-
----
+$\boxed{\eta_{isentropic} = 0.593 \approx 59.3\%}$
 
 ## Summary of Results
 
 | Quantity | Value |
 |--------|-------|
-| Mass flow rate | 28,390 kg/s |
 | Boiler heat input | 52.5 MW |
 | Turbine work output | 16.7 MW |
 | Plant efficiency | 31.8% |
+| Turbine efficiency | 59.3% |
 
-
-aaaa
+When it comes to the real values of this plant and BWR plants in general the effiency is around 30-34% which confirms the value found using hand calculations. When checking the real value of the power output, the Limerick Power Plant has a much higher posted value, for a single reactor able to produce 1,130MW. The cause of huge discrepency is most likely underestimating the mass flow rate since I was able to find this value for the condenser ONLY and assumed that this was a basic Rankine Cycle in steady state. This means that if there are other devices that increase the efficency of the cycle, say a reheat phase, this means there is more water unaccounted for. When it comes to the turbine efficiency, this was a slight underestimate, usually the isentropic effiencies of turbines in BWRs can range from 80-90%. When looking further into this, BWRs usually use a mix of high pressure and low pressure turbines which are optimized to extract energy from the water at differnet pressures as the water travels through the system after heat is added. This most likely is the biggest reason my efficiency is much lower compared to the real turbine efficiences. 
