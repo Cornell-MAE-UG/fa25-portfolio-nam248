@@ -6,8 +6,6 @@ technologies: [Written Report]
 image: /assets/images/Grape_Vine.jpg
 ---
 
-# Grapevine Redirection and Attraction for Pest Elimination
-
 **Team:** Save the Grapes
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
