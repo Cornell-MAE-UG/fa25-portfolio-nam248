@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Limerick Power Plant Rankine Cycle Analysis
-description: Device Analysis
-technologies: [Hand Analysis and Online Sources]
-image: /assets/images/LimerickPowerPlant.jpg
+title: Grapevine Redirection and Attraction for Pest Elimination
+description: Open Design Project
+technologies: [Written Report]
+image: /assets/images/Grape_Vine.jpg
 ---
 
 ---
