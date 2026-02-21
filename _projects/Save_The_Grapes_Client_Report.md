@@ -50,5 +50,4 @@ image: /assets/images/Grape_Vine.jpg
 - **Source 2** https://extension.psu.edu/spotted-lanternfly-management-in-vineyards
 
 ## Figure
-
-![Latern Fly Desnity on Grape Vines](figures/figure-2-avg-of-slf-adults-per-vine.png)
+![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
