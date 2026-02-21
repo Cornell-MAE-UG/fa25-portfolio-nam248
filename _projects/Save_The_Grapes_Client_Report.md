@@ -6,15 +6,6 @@ technologies: [Written Report]
 image: /assets/images/Grape_Vine.jpg
 ---
 
----
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
----
-
 # Grapevine Redirection and Attraction for Pest Elimination
 
 **Team:** Save the Grapes
