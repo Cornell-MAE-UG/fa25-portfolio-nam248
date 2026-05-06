@@ -65,7 +65,7 @@ image: /assets/images/Grape_Vine.jpg
   <a href="{{ '/assets/pdfs/annotated-Save_the_Grapes.pdf' | relative_url }}">View Pitch PDF</a>
 </div>
 
-<div style="margin-top: 200px;"></div>
+<div style="margin-top: 80px;"></div>
 
 ## Milestone 2: Functional Prototype (O5)
 
