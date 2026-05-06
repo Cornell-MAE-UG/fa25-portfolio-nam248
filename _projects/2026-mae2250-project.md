@@ -1,7 +1,7 @@
 ---
 layout: project
 title: MAE2250 Automated System Design
-description: A comprehensive design project integrating mechanical systems and vineyard protection
+description: A comprehensive design project integrating mechanical designs and argicultural expertise
 technologies: [Arduino, goBILDA Servos, Paristaltic Pumps]
 image: /assets/images/Grape_Vine.jpg
 ---
@@ -62,20 +62,13 @@ image: /assets/images/Grape_Vine.jpg
 ## Figure
 ![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
+[View Pitch PDF]({{ "/assets/pdfs/annotated-Save_the_Grapes.pdf" | relative_url }})
 
-
-
-
-[View Pitch PDF](\assets\pdfs\annotated-Save_the_Grapes.pdf)
-
-
-
-
-
+<div style="margin-top: 80px;"></div>
 
 ## Milestone 2: Functional Prototype (O5)
 
-[cite_start]Our functional prototype for the "Save the Grapes" project is designed to attract lantern flies away from real grape vines using a simulated sap system, and then ethically dispose of them using a vinegar spray[cite: 162, 163]. 
+[cite_start]Our functional prototype for the "Save the Grapes" project is designed to attract lantern flies away from real grape vines using a simulated sap system, and then ethically dispose of them using a vinegar spray[cite: 162, 163].
 
 ### Design & Assembly
 [cite_start]The prototype consists of a wooden base housing the electronics and fluid reservoirs, with a central PVC pipe and a 3D-printed shower head[cite: 37, 38, 40].
