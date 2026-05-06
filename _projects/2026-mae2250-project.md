@@ -52,8 +52,6 @@ image: /assets/images/Grape_Vine.jpg
 
 3. Are there any regulations you think we should be aware of? This provides us design constraints and keeps us aware of the environmental impact of our design.
 
-\newpage
-
 ## References
 
 - **Source 1** https://www.canr.msu.edu/resources/a-tale-of-two-invaders-tree-of-heaven-and-spotted-lanternfly
@@ -62,7 +60,7 @@ image: /assets/images/Grape_Vine.jpg
 ## Figure
 ![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
-<div style="margin-top: 100px;"></div>
+<div style="margin-top: 200px;"></div>
 
 [View Pitch PDF]({{ "/assets/pdfs/annotated-Save_the_Grapes.pdf" | relative_url }})
 
