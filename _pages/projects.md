@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <div class="featured-project" style="background-color: #f8f9fa; padding: 25px; border-radius: 8px; margin-bottom: 40px; border: 1px solid #ddd; text-align: center;">
-    <h2><a href="{{ '/projects/2026-mae2250-project/' | relative_url }}">MAE2250: Automated System Design</a></h2>
+    <h2><a href="{{ '/projects/2026-mae2250-project/' | relative_url }}">MAE2250 Save the Grapes - Open Design Project</a></h2>
     <p style="font-size: 1.1em; color: #444; max-width: 800px; margin: 10px auto;">
         <strong>Context:</strong> A comprehensive design project integrating mechanical designs and argicultural expertise.
     </p>
