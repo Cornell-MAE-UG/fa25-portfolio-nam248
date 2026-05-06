@@ -58,13 +58,14 @@ image: /assets/images/Grape_Vine.jpg
 - **Source 2** https://extension.psu.edu/spotted-lanternfly-management-in-vineyards
 
 ## Figure
-![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
+
+![Average SLF per vine graph]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: style="display: block; margin: 0 auto; width: 450px;"}
+
+<div style="text-align: center; margin-top: 15px;">
+  <a href="{{ '/assets/pdfs/annotated-Save_the_Grapes.pdf' | relative_url }}">View Pitch PDF</a>
+</div>
 
 <div style="margin-top: 200px;"></div>
-
-[View Pitch PDF]({{ "/assets/pdfs/annotated-Save_the_Grapes.pdf" | relative_url }})
-
-<div style="margin-top: 80px;"></div>
 
 ## Milestone 2: Functional Prototype (O5)
 
