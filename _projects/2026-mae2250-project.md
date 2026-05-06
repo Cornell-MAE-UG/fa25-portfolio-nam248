@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE2250 Automated System Design
+title: MAE2250 Save the Grapes - Open Design Project
 description: A comprehensive design project integrating mechanical designs and agricultural expertise
 technologies: [Arduino, goBILDA Servos, Peristaltic Pumps]
 image: /assets/images/Grape_Vine.jpg
