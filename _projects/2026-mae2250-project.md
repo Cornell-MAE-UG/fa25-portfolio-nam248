@@ -68,17 +68,17 @@ image: /assets/images/Grape_Vine.jpg
 
 ## Milestone 2: Functional Prototype (O5)
 
-[cite_start]Our functional prototype for the "Save the Grapes" project is designed to attract lantern flies away from real grape vines using a simulated sap system, and then ethically dispose of them using a vinegar spray[cite: 162, 163].
+Our functional prototype for the "Save the Grapes" project is designed to attract lantern flies away from real grape vines using a simulated sap system, and then ethically dispose of them using a vinegar spray.
 
 ### Design & Assembly
-[cite_start]The prototype consists of a wooden base housing the electronics and fluid reservoirs, with a central PVC pipe and a 3D-printed shower head[cite: 37, 38, 40].
-* [cite_start]**Base Enclosure:** Constructed from $10" \times 4"$ and $8" \times 4"$ balsa wood planks[cite: 47, 59, 60]. [cite_start]These are joined perpendicularly using 3D-printed corner attachments and M3 screws[cite: 50, 54, 66]. [cite_start]A 3D-printed door is attached with surface-mount hinges to allow access to the internal components[cite: 48, 55, 72].
-* [cite_start]**Fluid Routing (PVC & Tubing):** A 36-inch PVC pipe acts as the main structural stem[cite: 86]. [cite_start]We routed two separate 5mm tubing lines[cite: 76, 83, 84]:
-    * [cite_start]**Inner Tubing (Vinegar):** A 43-inch line runs directly up the center of the PVC pipe and connects to the center of the 3D-printed shower head[cite: 83, 92, 93].
-    * [cite_start]**Wrapped Tubing (Sap):** A 96-inch line exits the PVC pipe near the bottom, wraps around the exterior to simulate a vine, and re-enters near the top[cite: 84, 96, 97, 98, 100]. [cite_start]Small incisions (every $1/16"$) were made in this exposed tubing using an Xacto knife to allow the "sap" to slowly leak out[cite: 102, 107].
+The prototype consists of a wooden base housing the electronics and fluid reservoirs, with a central PVC pipe and a 3D-printed shower head[cite: 37, 38, 40].
+* **Base Enclosure:** Constructed from $10" \times 4"$ and $8" \times 4"$ balsa wood planks. These are joined perpendicularly using 3D-printed corner attachments and M3 screws. A 3D-printed door is attached with surface-mount hinges to allow access to the internal components.
+* **Fluid Routing (PVC & Tubing):** A 36-inch PVC pipe acts as the main structural stem. We routed two separate 5mm tubing lines:
+    * **Inner Tubing (Vinegar):** A 43-inch line runs directly up the center of the PVC pipe and connects to the center of the 3D-printed shower head.
+    * **Wrapped Tubing (Sap):** A 96-inch line exits the PVC pipe near the bottom, wraps around the exterior to simulate a vine, and re-enters near the top. Small incisions (every $1/16"$) were made in this exposed tubing using an Xacto knife to allow the "sap" to slowly leak out.
 
 ### Bill of Materials (Key Components)
-[cite_start]The total cost for this prototype iteration was **$63.42**[cite: 5]. [cite_start]The core components driving the system include[cite: 5]:
+The total cost for this prototype iteration was **$63.42**. The core components driving the system include:
 * Kamoer NKP low-flow peristaltic pump 
 * 25 feet of Soft Masterkleer PVC Tubing 
 * Custom 3D-printed parts (Shower head, door, frame, brackets) 
@@ -86,17 +86,20 @@ image: /assets/images/Grape_Vine.jpg
 * Balsa wood paneling and M3 socket head hardware 
 
 ### Testing and Evaluation
-[cite_start]We conducted two primary tests using water to simulate our fluids, testing the pump's ability to move fluid from the base to the top of the product[cite: 104, 105]:
+We conducted two primary tests using water to simulate our fluids, testing the pump's ability to move fluid from the base to the top of the product:
 
 **1. Sap Incision Flow Test**
-[cite_start]We measured the flow rate of the liquid seeping from the wrapped tubing to verify it would act like sap[cite: 106]. [cite_start]The test yielded an average flow rate of 0.5 mL/min[cite: 128]. [cite_start]However, our volume scaling indicates a current drainage rate of ~180 mL/hr[cite: 169]. 
-* [cite_start]**Next Steps:** To meet our success criterion of $< 20$ mL/hr (allowing a 500 mL reservoir to last roughly a day), we need to slow the drive voltage from the power source or add a physical clamp to limit the flow[cite: 167, 170, 171].
+We measured the flow rate of the liquid seeping from the wrapped tubing to verify it would act like sap. The test yielded an average flow rate of 0.5 mL/min. However, our volume scaling indicates a current drainage rate of ~180 mL/hr. 
+* **Next Steps:** To meet our success criterion of $< 20$ mL/hr (allowing a 500 mL reservoir to last roughly a day), we need to slow the drive voltage from the power source or add a physical clamp to limit the flow.
 
 **2. Vinegar Shower Head Flow Test**
-[cite_start]This test yielded a much higher flow rate of 90 mL/min[cite: 153]. [cite_start]This was expected given the larger cross-sectional area of the shower head channels compared to the tiny tubing incisions[cite: 158]. 
-* [cite_start]**Next Steps:** We need to physically test and verify that the spray radius exceeds 0.25m[cite: 174]. [cite_start]This ensures the spray hits the lantern flies on the trap but doesn't affect actual grapes nearby[cite: 175, 176]. [cite_start]If the radius is too wide, we will redesign the shower head to cave inward like an umbrella so the spray faces the PVC pipe[cite: 179].
+This test yielded a much higher flow rate of 90 mL/min. This was expected given the larger cross-sectional area of the shower head channels compared to the tiny tubing incisions. 
+* **Next Steps:** We need to physically test and verify that the spray radius exceeds 0.25m. This ensures the spray hits the lantern flies on the trap but doesn't affect actual grapes nearby. If the radius is too wide, we will redesign the shower head to cave inward like an umbrella so the spray faces the PVC pipe.
 
-[cite_start]**Demonstration Day Goal:** Our primary focus for the final presentation is successfully demonstrating the $>0.25m$ vinegar spray radius[cite: 184]. [cite_start]This provides a clear visual that the mechanical system works and covers the necessary area to eliminate the lantern flies[cite: 185].
+**Demonstration Day Goal:** Our primary focus for the final presentation is successfully demonstrating the $>0.25m$ vinegar spray radius. This provides a clear visual that the mechanical system works and covers the necessary area to eliminate the lantern flies.
+
+
+
 ## Milestone 3: Client Report
 
 ### Proposed Solution & Prototype
