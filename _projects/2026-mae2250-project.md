@@ -14,6 +14,8 @@ image: /assets/images/Grape_Vine.jpg
 ---
 
 ## Milestone 1: Client Pitch (O3)
+
+
 **Team:** Save the Grapes
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
@@ -60,7 +62,11 @@ image: /assets/images/Grape_Vine.jpg
 ## Figure
 ![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
-[View Pitch PDF](/assets/pdfs/annotated-Save_the_Grapes.pdf), but ensure the main points are readable right here.]
+
+
+
+
+[View Pitch PDF](/assets/pdfs/annotated-Save_the_Grapes.pdf)
 
 ## Milestone 2: Functional Prototype (O5)
 [Insert details about your prototype here. This is a great place to drop in photos of your hardware setup, CAD models, or wiring diagrams showing how your Arduino interfaces with your motor drivers and actuators.]
