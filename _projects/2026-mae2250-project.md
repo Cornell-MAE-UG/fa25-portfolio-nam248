@@ -3,7 +3,7 @@ layout: project
 title: MAE2250 Automated System Design
 description: A comprehensive design project integrating mechanical components and microcontrollers.
 technologies: [Arduino, goBILDA Servos, Linear Actuators]
-image: /assets/images/mae2250-cover.jpg 
+image: /assets/images/Grape_Vine.jpg
 ---
 
 ## Table of Contents
