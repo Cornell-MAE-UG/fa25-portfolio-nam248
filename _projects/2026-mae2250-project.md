@@ -62,6 +62,8 @@ image: /assets/images/Grape_Vine.jpg
 ## Figure
 ![Shaded rendering of earlier version]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
+<div style="margin-top: 100px;"></div>
+
 [View Pitch PDF]({{ "/assets/pdfs/annotated-Save_the_Grapes.pdf" | relative_url }})
 
 <div style="margin-top: 80px;"></div>
