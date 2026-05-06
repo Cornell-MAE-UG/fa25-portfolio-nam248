@@ -12,6 +12,7 @@ image: /assets/images/Grape_Vine.jpg
 * [Milestone 3: Client Report](#milestone-3-client-report)
 
 ---
+<div style="margin-top: 80px;"></div>
 
 ## Milestone 1: Client Pitch (O3)
 
