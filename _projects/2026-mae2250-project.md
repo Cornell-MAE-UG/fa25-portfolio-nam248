@@ -1,41 +1,37 @@
 ---
 layout: project
 title: MAE2250 Automated System Design
-description: A comprehensive design project integrating mechanical designs and argicultural expertise
-technologies: [Arduino, goBILDA Servos, Paristaltic Pumps]
+description: A comprehensive design project integrating mechanical designs and agricultural expertise
+technologies: [Arduino, goBILDA Servos, Peristaltic Pumps]
 image: /assets/images/Grape_Vine.jpg
 ---
 
 ## Table of Contents
 * [Milestone 1: Client Pitch (O3)](#milestone-1-client-pitch-o3)
 * [Milestone 2: Functional Prototype (O5)](#milestone-2-functional-prototype-o5)
-* [Milestone 3: Client Report](#milestone-3-client-report)
+* [Milestone 3: Client Report (06)](#milestone-3-client-report-06)
 
 ---
 <div style="margin-top: 80px;"></div>
 
 ## Milestone 1: Client Pitch (O3)
 
+**Team:** Save the Grapes  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
-**Team:** Save the Grapes
-**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
-
-**Problem statement:**  SLFs land on grape vines and feed on their sap, contaminating harvests and resulting in grapes that taste worse for consumers. SFLs also release mold, which covers leaves, harming vine growth. A Penn State study found an average of 22.9 lantern flies on a single grape vine. When a load of juice grapes can be rejected if 1-2 adult SLF are found in a 1000-gram grape sample, sufficiently thorough on-plant removal methods can risk damaging vines. Therefore, methods to attract SLFs away from vines is more viable.
+**Problem statement:**  SLFs land on grape vines and feed on their sap, contaminating harvests and resulting in grapes that taste worse for consumers. SFLs also release mold, which covers leaves, harming vine growth. A Penn State study found an average of 22.9 lantern flies on a single grape vine. When a load of juice grapes can be rejected if 1-2 adult SLF are found in a 1000-gram grape sample, sufficiently thorough on-plant removal methods can risk damaging vines. Therefore, methods to attract SLFs away from vines is more viable.
 
 **Impact:** Grape farmers can face significant losses if their harvests are damaged or destroyed. When SLFs land on grape vines and suck their sap, plant growth is hindered, and grapes become sour. Grapes grown in regions no longer affected by spotted lantern flies would taste sweeter, farmers and consumers would not have to fear their products being contaminated by SLFs, and the price of grape products would remain stable due to increased production volume.
 
 ### Concept A: False Grape Vine
 
-* Multiple vines would be set up throughout the vineyard with the discretion of the owner
-
-* These fake vines would be full of Tree of Heaven sap which SLFs prefer to the grapes as well as a 60Hz emitter which SLF are attracted to 
-
-* Lantern flies would land and take the sap from the fake grape vine instead of real grape vines
+* Multiple vines would be set up throughout the vineyard with the discretion of the owner.
+* These fake vines would be full of Tree of Heaven sap which SLFs prefer to the grapes as well as a 60Hz emitter which SLF are attracted to.
+* Lantern flies would land and take the sap from the fake grape vine instead of real grape vines.
 
 **Improving the Current Status Quo:**
 
-* Farms currently spray pesticides to deter SLFs, which fade after only a few days
-
+* Farms currently spray pesticides to deter SLFs, which fade after only a few days.
 * No interference with existing growing processes. The traps do not touch the grape vines.
 
 **End-of-semester proof-of-concept:** One single vine made from 3D prints, wood, and purchased parts, 60Hz emitter, and liquid to simulate Tree of Heaven sap.
@@ -43,14 +39,11 @@ image: /assets/images/Grape_Vine.jpg
 ### Key risks
 
 * **Risk 1** — Faux grape vine traps may occupy usable growing space in vineyards. We will test how the product's size changes its effectiveness by altering variables such as trap size, sap potency, and vibration frequency.
-
 * **Risk 2** — The vine may attract unwanted insects or animals to the vineyards, so we will monitor the trap at the site before full implementation.
 
 ### Questions for the client
 1. How much space does the client have available for the traps on the farm? This will determine the size of our final product and where it can be implemented.
-
 2. What are the dimensions of an average vineyard/ (rows, terrain, trellises, etc.)? This will help us determine the best way to integrate our trap with each farm.
-
 3. Are there any regulations you think we should be aware of? This provides us design constraints and keeps us aware of the environmental impact of our design.
 
 ## References
@@ -63,7 +56,7 @@ image: /assets/images/Grape_Vine.jpg
 ![Average SLF per vine graph]({{ "/assets/images/figure-2-avg-of-slf-adults-per-vine.png" | relative_url }}){: style="display: block; margin: 0 auto; width: 450px;"}
 
 <div style="text-align: center; margin-top: 15px;">
-  <a href="{{ '/assets/pdfs/annotated-Save_the_Grapes.pdf' | relative_url }}">View Pitch PDF</a>
+  <a href="{{ '/assets/pdfs/annotated-Save_the_Grapes.pdf' | relative_url }}" target="_blank">View Pitch PDF</a>
 </div>
 
 <div style="margin-top: 80px;"></div>
@@ -73,7 +66,7 @@ image: /assets/images/Grape_Vine.jpg
 Our functional prototype for the "Save the Grapes" project is designed to attract lantern flies away from real grape vines using a simulated sap system, and then ethically dispose of them using a vinegar spray.
 
 ### Design & Assembly
-The prototype consists of a wooden base housing the electronics and fluid reservoirs, with a central PVC pipe and a 3D-printed shower head[cite: 37, 38, 40].
+[cite_start]The prototype consists of a wooden base housing the electronics and fluid reservoirs, with a central PVC pipe and a 3D-printed shower head[cite: 37, 38, 40].
 * **Base Enclosure:** Constructed from $10" \times 4"$ and $8" \times 4"$ balsa wood planks. These are joined perpendicularly using 3D-printed corner attachments and M3 screws. A 3D-printed door is attached with surface-mount hinges to allow access to the internal components.
 * **Fluid Routing (PVC & Tubing):** A 36-inch PVC pipe acts as the main structural stem. We routed two separate 5mm tubing lines:
     * **Inner Tubing (Vinegar):** A 43-inch line runs directly up the center of the PVC pipe and connects to the center of the 3D-printed shower head.
@@ -100,11 +93,14 @@ This test yielded a much higher flow rate of 90 mL/min. This was expected given 
 
 **Demonstration Day Goal:** Our primary focus for the final presentation is successfully demonstrating the $>0.25m$ vinegar spray radius. This provides a clear visual that the mechanical system works and covers the necessary area to eliminate the lantern flies.
 
-[View Functional Prototype PDF]({{ "/assets/pdfs/Save_The_Grapes Functioning Prototype Write Up-1.pdf" | relative_url }})
+<div style="text-align: center; margin-top: 15px;">
+  <a href="{{ '/assets/pdfs/Save_The_Grapes%20Functioning%20Prototype%20Write%20Up-1.pdf' | relative_url }}" target="_blank">View Functional Prototype PDF</a>
+</div>
 
+<div style="margin-top: 80px;"></div>
 
+## Milestone 3: Client Report (06)
 
-## MAE 2250 - ODP 6: Client Report
 **Neil Morrison, Susanna Aufrichtig, Jamie Dalvito, Flavia Capet, and Luca Welle**
 
 ![VineGuard CAD Render]({{ "/assets/images/Rough Assembly_1.png" | relative_url }}){: style="display: block; margin: 0 auto; width: 100%; max-width: 600px;"}
@@ -129,7 +125,7 @@ To lure SLFs away from grapevines, our system utilizes a sugary attractant desig
 A vineyard simply places the device, turns it on, and it runs autonomously with minimal maintenance.
 
 ### Assembly
-The system is designed so the box exterior can be rapidly assembled or disassembled if need be. Each panel contains a lip to maintain box geometry. Screws are then attached throughout each panel for rigidity. The lid of the box consists of two peices which are loosely pressed to fit to the top of the box, giving quick access to the interior electronics and fluid reservoirs for maintenance. 
+The system is designed so the box exterior can be rapidly assembled or disassembled if need be. Each panel contains a lip to maintain box geometry. Screws are then attached throughout each panel for rigidity. The lid of the box consists of two pieces which are loosely pressed to fit to the top of the box, giving quick access to the interior electronics and fluid reservoirs for maintenance. 
 
 One of the panels contains a mounting profile for the electrical board which is held on with four screws on the interior of the box. Electrical components are wired together using jumper wires and Wago connectors which can be plugged directly into the arduino and allow for easily connecting components in parallel. 
 
@@ -138,7 +134,7 @@ A 3D printed linkage allows servo motors to actuate the sprayer heads. A 3D prin
 ### Testing Details and Results
 
 #### 1. Sap Drainage Test
-To test to longevity of our sap reservoir, we conducted a drainage test to determine how long the system could realistically last in the field without being refilled.
+To test the longevity of our sap reservoir, we conducted a drainage test to determine how long the system could realistically last in the field without being refilled.
 * **Procedure:** Mix 200 g sucrose + 300 g water to mimic Tree of Heaven sap viscosity (~5 mPa*s). Pump solution for 10 min, recording water level every 2.5 min.
 * **Results:** Drainage rate: 0.5 mL/min (6mL/day) -> 1000mL reservoirs must be refilled every ~167 days.
 
@@ -172,9 +168,9 @@ Based on our test results, Vineguard demonstrates a strong potential as a feasib
 
 Given this performance we would recommend development of our prototype to move forward with field testing as the next step. It will be important to test the attractant that will be used, along with ideal placement that will bring in the most insects at a time. Also, taking tourism into account is important so the aesthetics of the design would also need to be modified to camouflage it into the vineyard as much as possible. 
 
-Overall, Vinegaurd offers a feasible low-toxicity, low-intervention solution for mitigating SLF damage in vineyards through a bio-inspired decoy system. This prototype has the potential to not only save vineyards millions in yields but also to provide an eco-friendly, passive, low maintenance solution compared to past pest control methods.
+Overall, VineGuard offers a feasible low-toxicity, low-intervention solution for mitigating SLF damage in vineyards through a bio-inspired decoy system. This prototype has the potential to not only save vineyards millions in yields but also to provide an eco-friendly, passive, low maintenance solution compared to past pest control methods.
 
-### BOM for Final Prototype:
+### BOM for Final Prototype
 
 | Description | Vendor | McMaster Code | Quantity | Unit of measurement | Total Cost |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -204,4 +200,6 @@ Overall, Vinegaurd offers a feasible low-toxicity, low-intervention solution for
 4. BioNumbers (BNID 108683), "Viscosity of the sap (typically ~5× water)," Harvard Medical School.
 5. Penn State Extension, "Spotted lanternflies and beekeeping," Oct. 5, 2025.
 
-[View Final Client Report PDF]({{ "/assets/pdfs/Open Design Project 6_ Exhibit and Client Report.pdf" | relative_url }})
+<div style="text-align: center; margin-top: 15px;">
+  <a href="{{ '/assets/pdfs/Open%20Design%20Project%206_%20Exhibit%20and%20Client%20Report.pdf' | relative_url }}" target="_blank">View Final Client Report PDF</a>
+</div>
