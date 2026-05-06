@@ -100,7 +100,7 @@ This test yielded a much higher flow rate of 90 mL/min. This was expected given 
 
 **Demonstration Day Goal:** Our primary focus for the final presentation is successfully demonstrating the $>0.25m$ vinegar spray radius. This provides a clear visual that the mechanical system works and covers the necessary area to eliminate the lantern flies.
 
-
+[View Functional Prototype PDF]({{ "/assets/pdfs/Save_The_Grapes Functioning Prototype Write Up-1.pdf" | relative_url }})
 
 ## Milestone 3: Client Report
 
