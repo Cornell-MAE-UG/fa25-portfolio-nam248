@@ -1,6 +1,6 @@
 ---
 layout: project
 title: Fluid Mechanical Dissection
-description:
+description: Dissassembling a weedwacker 
 technologies: []
 ---
